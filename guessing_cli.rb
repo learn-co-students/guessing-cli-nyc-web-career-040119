@@ -7,11 +7,11 @@ def run_guessing_game
     case input.chomp
     when number
       "You guessed the correct number!"
-    when !number && !"exit"
-      "The computer guessed #{number}."
     when "exit"
       puts "Goodbye!"
       break
+    else
+      puts "The computer guessed #{number}."
     end
   end
 end
