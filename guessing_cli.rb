@@ -1,5 +1,5 @@
 def run_guessing_game
-  gen_random_number
+  number = gen_random_number
   input = ""
   while input
     puts "Guess a number between 1 and 6."
