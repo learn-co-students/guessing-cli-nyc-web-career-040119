@@ -7,6 +7,8 @@ def run_guessing_game
     case input
     when number
       "You guessed the correct number!"
+    when !number && !"exit"
+      "The computer guessed #{number}."
     when "exit"
       exit
       break
