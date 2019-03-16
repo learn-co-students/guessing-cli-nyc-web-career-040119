@@ -6,6 +6,9 @@ def run_guessing_game
     case input
     when rand(1..6)
       "correct"
+    when "exit"
+      exit
+      break
     else
       "try again"
   end
