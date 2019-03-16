@@ -7,3 +7,7 @@ def run_guessing_game
     false
   end
 end
+
+def exit
+  puts "Goodbye!"
+end
