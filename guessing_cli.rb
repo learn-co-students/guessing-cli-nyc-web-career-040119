@@ -11,6 +11,7 @@ def run_guessing_game
       break
     else
       "try again"
+    end
   end
 end
 
